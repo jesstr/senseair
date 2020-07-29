@@ -1,0 +1,11 @@
+[Unit]
+Description=SenseAir S8 CO2 sensor client 
+Documentation=https://github.com/jesstr/senseair
+After=network.target
+
+[Service]
+User=pi
+ExecStart=python -u /usr/local/bin/senseair.py
+
+[Install]
+WantedBy=multi-user.target

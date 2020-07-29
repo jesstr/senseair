@@ -1,0 +1,9 @@
+{
+    "serial_port": "/dev/serial0",
+    "update_period": 5,
+    "influx_server": "<IP adress>",
+    "influx_port": 8086,
+    "influx_user": "<username>",
+    "influx_password": "<password>",
+    "influx_database": "<database name>"
+}
